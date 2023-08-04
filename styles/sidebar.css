@@ -1,0 +1,36 @@
+.sidebar{
+    position: fixed;
+    top:50px;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-color: white;
+}
+p{
+    margin-top: 0;
+}
+
+.home-icon{
+    width: 35px;
+    margin-top: 30px;
+}
+.explore-icon{
+    width: 35px;
+    margin-top: 30px;
+}
+.subscription-icon{
+    width: 35px;
+    margin-top: 30px;
+}
+.music-icon{
+    width: 35px;
+    margin-top: 30px;
+}
+.librery-icon{
+    width: 35px;
+    margin-top: 30px;
+}

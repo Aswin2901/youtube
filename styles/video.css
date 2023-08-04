@@ -1,0 +1,38 @@
+.thumbnail{
+    display: block;
+    width: 300px;
+  }
+  .video-title{
+      margin-top: 0;
+      font-family: Roboto, arial;
+      font-weight: 600;
+      line-height: 19px;
+      font-size: 95%;
+      
+  
+   
+  }
+  .video-picture-grid{
+      display: grid;
+      grid-template-columns: 20px 1fr;
+      column-gap: 15px;
+      margin-top: 8px;
+      padding-right: 60px;
+      
+    }
+  .profile-picture{
+      border-radius: 50px;
+      width: 30px;
+  }
+  .author,
+  .video-stats{
+      line-height: 4px;
+      color: rgb(96, 96,96);
+  }
+  .video-all{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      column-gap: 30px;
+      row-gap: 40px;
+      padding-top: 20px;
+  }
